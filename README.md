@@ -1,4 +1,4 @@
-# mariliadev
+# marilia
 
 ## Project setup
 ```
