@@ -6,7 +6,8 @@
       </div>
       <nav class="menu">
         <a href="#about">about</a>
-        <a href="#MyStacks">my stacks</a>
+        <a href="#services">services</a>
+        <a href="#experiences">experiences</a>
         <a href="#Jobs">jobs</a>
         <a href="#Contact">contact</a>
         <router-link :to="{ name: 'AboutPage' }">blog</router-link>
@@ -37,7 +38,7 @@ export default Vue.extend({
 }
 
 .logo h1 {
-  @apply text-xl font-bold uppercase text-violet-50;
+  @apply text-xl font-bold font-plex lowercase text-violet-50;
 }
 
 .logo p {
@@ -45,7 +46,7 @@ export default Vue.extend({
 }
 
 .menu a {
-  @apply mx-6 text-xl font-thin;
+  @apply mx-6 text-base font-thin;
 }
 
 .menu a:last-child {
