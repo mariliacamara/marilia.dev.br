@@ -37,7 +37,7 @@
           ></path>
         </svg>
       </button>
-      <div class="menu" id="mobile-menu">
+      <div class="menu hidden w-full md:block md:w-auto" id="mobile-menu">
         <ul>
           <li>
             <a href="#" aria-current="page">about</a>
@@ -77,7 +77,7 @@ export default Vue.extend({
 <style>
 .navigation {
   display: block;
-  @apply container mx-auto flex flex-row justify-between items-center py-12 border-b border-zinc-900;
+  @apply container mx-auto flex flex-wrap flex-row justify-between items-center py-12 border-b border-zinc-900;
 }
 
 .logo {
@@ -86,10 +86,6 @@ export default Vue.extend({
 
 .logo span {
   @apply text-xl font-bold font-plex lowercase text-violet-50;
-}
-
-.menu {
-  @apply hidden w-full md:block md:w-auto;
 }
 
 .menu ul {
