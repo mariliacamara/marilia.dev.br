@@ -1,7 +1,6 @@
 <template>
   <div id="MyStacks">
     <h2>{{ title }}</h2>
-    <p>{{ description }}</p>
     <div class="stack">
       <svg viewBox="0 0 128 128">
         <path
@@ -293,7 +292,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "MyStacks",
+  name: "StacksSection",
   props: {
     title: String,
     description: String,
@@ -303,20 +302,20 @@ export default Vue.extend({
 
 <style scoped>
 #MyStacks {
-  @apply container mx-auto flex flex-col items-center mt-[8rem];
+  @apply flex flex-col mt-[2rem] lg:mt-0;
 }
 
 h2 {
-  @apply text-font-xxl mb-3;
+  @apply mb-3 text-3xl font-light font-plex text-teal-400;
 }
 
 .stack {
-  @apply grid grid-cols-4 lg:grid-cols-7 mt-[4rem] mb-[6rem];
+  @apply grid grid-cols-4 lg:grid-cols-7 mt-[1.2rem];
 }
 
 .stack svg {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   @apply p-4;
 }
 </style>

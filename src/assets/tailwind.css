@@ -8,6 +8,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    @apply text-neutral-300 bg-dark;
+    @apply text-neutral-300 bg-dark font-light w-full;
   }
 }

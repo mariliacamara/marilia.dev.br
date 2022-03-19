@@ -376,6 +376,7 @@ module.exports = {
         '"Courier New"',
         "monospace",
       ],
+      plex: ["IBM Plex Mono"],
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MainHeader />
+    <MainHeader name="<maríliacâmara />" />
     <router-view />
   </div>
 </template>

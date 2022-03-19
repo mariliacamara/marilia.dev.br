@@ -2,7 +2,7 @@
   <div class="header">
     <div class="navigation">
       <div class="logo">
-        <h1>Marília Câmara</h1>
+        <h1>{{ name }}</h1>
       </div>
       <nav class="menu">
         <a href="#about">about</a>
@@ -21,7 +21,7 @@ import Vue from "vue";
 export default Vue.extend({
   name: "MainHeader",
   props: {
-    msg: String,
+    name: String,
   },
 });
 </script>
