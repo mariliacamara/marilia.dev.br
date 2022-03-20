@@ -40,6 +40,7 @@ module.exports = {
       rose: colors.rose,
       dark: "#13131F",
       purple_light: "#8257E6",
+      dark_500: "#161626",
     }),
     columns: {
       auto: "auto",
