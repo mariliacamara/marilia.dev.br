@@ -9,7 +9,7 @@
         purus risus. Ut rutrum sollicitudin purus in accumsan.
       </div>
       <div class="service-item">
-        <img src="../../assets/icons/internet.svg" alt="" />
+        <img src="../../assets/icons/art.svg" alt="" />
         <h3>Web development</h3>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
         purus risus. Ut rutrum sollicitudin purus in accumsan.

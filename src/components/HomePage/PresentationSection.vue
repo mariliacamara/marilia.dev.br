@@ -32,11 +32,11 @@ export default Vue.extend({
 }
 
 .presentation-text h2 {
-  @apply text-4xl lg:text-5xl  font-bold;
+  @apply text-4xl lg:text-5xl font-bold;
 }
 
 .presentation-text p {
-  @apply mt-3 text-amber-300 text-base lg:text-lg;
+  @apply mt-3 text-base lg:text-lg;
 }
 
 .presentation-image {

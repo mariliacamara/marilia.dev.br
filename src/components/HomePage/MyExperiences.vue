@@ -2,7 +2,7 @@
   <li>
     <span>
       <svg
-        class="w-3 h-3 text-blue-600 dark:text-teal-400"
+        class="w-3 h-3 text-blue-600 dark:text-teal-300"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"

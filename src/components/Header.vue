@@ -85,7 +85,7 @@ export default Vue.extend({
 }
 
 .logo span {
-  @apply text-xl font-bold font-plex lowercase text-violet-50;
+  @apply text-xl font-bold font-plex lowercase text-teal-300;
 }
 
 .menu ul {

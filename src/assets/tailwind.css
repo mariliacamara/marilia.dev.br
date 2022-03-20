@@ -10,4 +10,12 @@
     border: 0;
     @apply scroll-smooth text-neutral-300 bg-dark font-light;
   }
+
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
 }
