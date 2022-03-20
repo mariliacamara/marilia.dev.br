@@ -1,5 +1,5 @@
 <template>
-  <div class="services">
+  <div id="services" class="services">
     <h2>{{ title }}</h2>
     <div class="service-wrapper">
       <div class="service-item">
@@ -66,6 +66,6 @@ export default Vue.extend({
   width: 80px;
   height: 80px;
   padding: 1rem;
-  @apply bg-gray-800 rounded-lg;
+  @apply bg-dark rounded-lg;
 }
 </style>
