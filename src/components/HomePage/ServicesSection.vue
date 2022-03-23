@@ -4,18 +4,16 @@
     <div class="service-wrapper">
       <div class="service-item">
         <img src="../../assets/icons/internet.svg" alt="" />
-        <h3>Web development</h3>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
-        purus risus. Ut rutrum sollicitudin purus in accumsan.
+        <h3>Desenvolvimento web</h3>
+        Construções de site institucionais, landing pages
+      </div>
+      <div class="service-item">
+        <img src="../../assets/icons/responsive.svg" alt="" />
+        <h3>Design Responsivo</h3>
+        Seu site cabe em todos os tipos de telas e aparelhos.
       </div>
       <div class="service-item">
         <img src="../../assets/icons/art.svg" alt="" />
-        <h3>Web development</h3>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
-        purus risus. Ut rutrum sollicitudin purus in accumsan.
-      </div>
-      <div class="service-item">
-        <img src="../../assets/icons/internet.svg" alt="" />
         <h3>Web development</h3>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
         purus risus. Ut rutrum sollicitudin purus in accumsan.
@@ -63,9 +61,9 @@ export default Vue.extend({
 }
 
 .service-item img {
-  width: 80px;
-  height: 80px;
-  padding: 1rem;
-  @apply bg-dark rounded-lg;
+  width: 50px;
+  height: 50px;
+  padding: 0.6rem;
+  @apply bg-teal-500 rounded-tl-lg rounded-bl-lg rounded-tr-lg;
 }
 </style>

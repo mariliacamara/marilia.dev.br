@@ -5,12 +5,14 @@
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
     />
     <div class="container mx-auto">
-      <ServicesSection title="<services />" />
+      <ServicesSection title="<serviços />" />
     </div>
     <div class="wrapper">
-      <ExperienceSection title="<experiences />" />
-      <StacksSection title="<technologies />" />
+      <ExperienceSection title="<experiências />" />
+      <StacksSection title="<tecnologias />" />
     </div>
+    <ClientSection title="<clientes />" />
+    <ContactSection title="<contate-me />" />
   </div>
 </template>
 
@@ -20,6 +22,8 @@ import PresentationSection from "@/components/HomePage/PresentationSection.vue";
 import ServicesSection from "@/components/HomePage/ServicesSection.vue";
 import StacksSection from "@/components/HomePage/StacksSection.vue";
 import ExperienceSection from "@/components/HomePage/ExperienceSection.vue";
+import ClientSection from "@/components/HomePage/ClientSection.vue";
+import ContactSection from "@/components/HomePage/ContactSection.vue";
 
 export default Vue.extend({
   name: "HomeView",
@@ -28,6 +32,8 @@ export default Vue.extend({
     ServicesSection,
     StacksSection,
     ExperienceSection,
+    ClientSection,
+    ContactSection,
   },
 });
 </script>

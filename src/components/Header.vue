@@ -40,23 +40,23 @@
       <div class="menu hidden w-full md:block md:w-auto" id="mobile-menu">
         <ul>
           <li>
-            <a href="#" aria-current="page">about</a>
+            <a href="#" aria-current="page">sobre</a>
           </li>
           <li>
-            <a href="#">services</a>
+            <a href="#services">serviços</a>
           </li>
           <li>
-            <a href="#experiences">experiences</a>
+            <a href="#experiences">experiências</a>
           </li>
           <li>
-            <a href="#">jobs</a>
+            <a href="#jobs">clientes</a>
           </li>
           <li>
-            <a href="#">contact</a>
+            <a href="#">contato</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#">blog</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
