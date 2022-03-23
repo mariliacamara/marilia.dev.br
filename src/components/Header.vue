@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header z-50">
     <nav class="navigation">
       <a href="/" class="logo">
         <span>{{ name }}</span>
