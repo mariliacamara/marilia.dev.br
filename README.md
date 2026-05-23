@@ -1,24 +1,13 @@
-# marilia
+# Marie Portfolio
 
-## Project setup
-```
-yarn install
-```
+## Install
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+```bash
+npm install
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Run
 
-### Lints and fixes files
+```bash
+npm run dev
 ```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
