@@ -134,7 +134,7 @@ export default function PortfolioLanding() {
         <header className="sticky top-0 z-40 border-b border-white/5 bg-[#060816]/70 backdrop-blur-xl">
           <div className="flex items-center justify-between py-5">
             <a href="#top" className="text-lg font-semibold tracking-tight">
-              Marie Camara
+              Marília Câmara
             </a>
 
             <nav className="hidden gap-8 text-sm text-zinc-400 md:flex">
